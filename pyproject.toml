@@ -1,0 +1,23 @@
+[project]
+name = "atomizer"
+version = "0.1.0"
+description = "Generate Atomic Notes from PDFs"
+readme = "README.md"
+authors = [
+    { name = "EngArsany", email = "arsanyo2003@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.142.2",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+tips-hindawi-project = "tips_hindawi_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
