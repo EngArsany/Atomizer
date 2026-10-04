@@ -84,7 +84,7 @@ Scanned PDFs may not produce usable text because the current extraction flow doe
 
 ## 📸 Demo
 
-Add screenshots, GIFs, or a demo video.
+All the demo assets are located inside the `demo/` folder.
 
 ---
 
